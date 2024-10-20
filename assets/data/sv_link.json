@@ -1,0 +1,28 @@
+{
+  "609390639783461904": {
+    "java": {
+      "url": "https://thanhtung.dev",
+      "filePath": "./assets/data/files/no-jar.txt"
+    },
+    "pc": {
+      "url": "https://thanhtung.dev",
+      "filePath": "./assets/data/files/nrowild.rar"
+    },
+    "apk": {
+      "url": "https://thanhtung.dev",
+      "filePath": "./assets/data/files/nrowild.apk"
+    },
+    "ios": {
+      "url": "https://thanhtung.dev",
+      "filePath": "./assets/data/files/no-ios.txt"
+    },
+    "web": {
+      "url": "https://thanhtung.dev",
+      "filePath": "./assets/data/files/thongbao.txt"
+    },
+    "mod": {
+      "url": "https://thanhtung.dev",
+      "filePath": "./assets/data/files/thongbao.txt"
+    }
+  }
+}
