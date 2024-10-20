@@ -36,7 +36,7 @@ function getRandomLine(filePath) {
 }
 
 async function sendImageTypes(api, threadId) {
-    const imageTypes = Object.keys(IMAGE_FILES).map(type => `!${type}`).join('\n');
+    const imageTypes = Object.keys(IMAGE_FILES).map(type => `/${type}`).join('\n');
     await api.sendMessage(`Danh sách các lệnh IMAGE\nHãy sử dụng để biết chi tiết :D\n${imageTypes}`, threadId, MessageType.GroupMessage);
 }
 

@@ -56,8 +56,8 @@ async function processMessage(api, messageContent, threadId) {
 
         const jsonData = await response.json();
 
-        if (jsonData.success && jsonData.message) {
-            const answer = jsonData.message;
+        if (jsonData.success && jsonData.result) {
+            const answer = jsonData.result;
 
             if (answer) {
                 await api.sendMessage({
